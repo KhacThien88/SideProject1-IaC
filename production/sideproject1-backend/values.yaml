@@ -35,10 +35,10 @@ ingress:
     cert-manager.io/cluster-issuer: letsencrypt-dns
   tls:
   - hosts:
-      - sideproject1.khacthienit.click
+      - sideproject1-be.khacthienit.click
     secretName: sideproject1-be
   rules:
-  - host: sideproject1.khacthienit.click
+  - host: sideproject1-be.khacthienit.click
     paths:
     - path: /
       servicePort: 80
