@@ -40,7 +40,7 @@ ingress:
   rules:
   - host: sideproject1.khacthienit.click
     paths:
-    - path: /sideproject1-frontend
+    - path: /
       servicePort: 80
       serviceName: sideproject1-frontend
 resources:
