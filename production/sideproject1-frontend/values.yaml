@@ -16,7 +16,7 @@ deployments:
       live: "/"
       ready: "/"
       initialDelaySeconds: 60
-      periodSeconds: 10
+      periodSeconds: 15
       failureThreshold: 5
       timeoutSeconds: 3
 env:
