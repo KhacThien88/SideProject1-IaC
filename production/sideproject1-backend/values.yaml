@@ -11,7 +11,7 @@ deployments:
   prometheusEnabled: false
   service:
     name: sideproject1-backend
-    HTTPPort: 4000
+    HTTPPort: 8080
     health:
       live: "/health"
       ready: "/health"
